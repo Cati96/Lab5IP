@@ -1,0 +1,17 @@
+// Decompiled by DJ v3.12.12.101 Copyright 2016 Atanas Neshkov  Date: 10-Apr-17 12:53:51 PM
+// Home Page: http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   SendNotification.java
+
+
+public interface SendNotification
+{
+
+    public abstract void sendSMS(long l, MessageType messagetype);
+
+    public abstract void sendSMS(Secretary secretary, MessageType messagetype);
+
+    public abstract void sendEMAIL(long l, MessageType messagetype);
+
+    public abstract void sendEMAIL(Secretary secretary, MessageType messagetype);
+}

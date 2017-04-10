@@ -1,0 +1,18 @@
+// Decompiled by DJ v3.12.12.101 Copyright 2016 Atanas Neshkov  Date: 10-Apr-17 12:53:51 PM
+// Home Page: http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   Student.java
+
+
+public class Student extends User
+{
+
+    public Student()
+    {
+    }
+
+    public String type()
+    {
+        return (new StringBuilder()).append("Student:").append(this).toString();
+    }
+}

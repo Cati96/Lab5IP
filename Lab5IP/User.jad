@@ -1,0 +1,48 @@
+// Decompiled by DJ v3.12.12.101 Copyright 2016 Atanas Neshkov  Date: 10-Apr-17 12:53:51 PM
+// Home Page: http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   User.java
+
+
+public abstract class User
+{
+
+    public User()
+    {
+    }
+
+    public User(Student student1)
+    {
+        student = student1;
+    }
+
+    public User(Secretary secretary1)
+    {
+        secretary = secretary1;
+    }
+
+    public Student getStudent()
+    {
+        return student;
+    }
+
+    public void setStudent(Student student1)
+    {
+        student = student1;
+    }
+
+    public Secretary getSecretary()
+    {
+        return secretary;
+    }
+
+    public void setSecretary(Secretary secretary1)
+    {
+        secretary = secretary1;
+    }
+
+    abstract String type();
+
+    private Student student;
+    private Secretary secretary;
+}

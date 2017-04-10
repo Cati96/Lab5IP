@@ -1,0 +1,26 @@
+// Decompiled by DJ v3.12.12.101 Copyright 2016 Atanas Neshkov  Date: 10-Apr-17 12:53:51 PM
+// Home Page: http://www.neshkov.com/dj.html - Check often for new version!
+// Decompiler options: packimports(3) 
+// Source File Name:   PhoneNumber.java
+
+
+public class PhoneNumber extends Notification
+{
+
+    public PhoneNumber()
+    {
+    }
+
+    public long getID()
+    {
+        return userID;
+    }
+
+    public String getPhoneNumber()
+    {
+        return userPhoneNumber;
+    }
+
+    private long userID;
+    private String userPhoneNumber;
+}
